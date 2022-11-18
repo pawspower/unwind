@@ -1,9 +1,19 @@
+import Home from './pages/Home';
 import Register from './pages/Register';
-import "./style.scss"
+import Signin from './pages/Signin';
+
+
+import "./style.scss";
 
 function App() {
   return (
-    <Register />
+    <div>
+    <Home />
+    <hr></hr>
+    {/* <Register />
+    <hr></hr>
+    <Signin /> */}
+    </div>
   );
 }
 

@@ -14,7 +14,7 @@ body {
 
 
 .formContainer{
-    background-color: #89ABE3FF;
+    background-color: #7DB46CFF;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -30,15 +30,13 @@ body {
         align-items: center;
 
         .logo{
-            color:#89ABE3FF;
+            color: #ABD6DFFF;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 30px;
         }
 
         .title{
-            color:#89ABE3FF;
-            font-weight: bold;
-            font-size: 12px;
+            font-size: 15px;
         }
 
 
@@ -49,7 +47,58 @@ body {
 
             input{
                 padding: 15px;
+                border: none;
+                border-bottom: 1px solid #89ABE3FF;
+                &::placeholder{
+                    color: rgb(175,175,175);
+                }
             }
+
+        button{
+            background-color: #ABD6DFFF;
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        }
+        p{
+            color:  #ABD6DFFF;
+            font-size: 12px;
+            margin-top: 10px;
+            font-weight: bold;
+        }       
+    }
+}
+
+.home{
+    background-color: #7DB46CFF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 65%;
+        height: 80%;
+        display: flex;
+        overflow: hidden;
+
+        .sidebar{
+            flex: 1;
+            border-right: 1px solid #ABD6DFFF;
+            background-color: #ABD6DFFF;
+
+        }
+
+        .chat{
+            flex: 2;
+
+
         }
     }
 }
