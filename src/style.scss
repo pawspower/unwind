@@ -45,14 +45,14 @@ body {
       align-items: center;
   
       .logo {
-        color: #5d5b8d;
+        color: white;
         font-weight: bold;
         font-size: 24px;
   
       }
   
       .title {
-        color: #5d5b8d;
+        color: white;
         font-size: 12px;
       }
   
@@ -84,7 +84,7 @@ body {
           display: flex;
           align-items: center;
           gap: 10px;
-          color: #8da4f1;
+          color: white;
           font-size: 12px;
           cursor: pointer;
   
@@ -94,7 +94,7 @@ body {
         }
       }
       p {
-        color: #5d5b8d;
+        color: black;
         font-size: 12px;
         margin-top: 10px;
       }
@@ -121,7 +121,7 @@ body {
   
       .sidebar {
         flex: 1;
-        background-color: #7DB46CFF;
+        background-color: whitesmoke;
         position: relative;
   
         .navbar {
@@ -131,7 +131,7 @@ body {
           height: 50px;
           padding: 10px;
           justify-content: space-between;
-          color: #ddddf7;
+          color: white;
   
           .logo {
             font-weight: bold;
@@ -178,7 +178,7 @@ body {
               outline: none;
   
               &::placeholder {
-                color: lightgray;
+                color: #FAFAFA;
               }
             }
           }
@@ -189,11 +189,11 @@ body {
           display: flex;
           align-items: center;
           gap: 10px;
-          color: white;
+          color: black;
           cursor: pointer;
   
           &:hover {
-            background-color: #ABD6DFFF;
+            background-color: #d3d3d3;
           }
   
           img {
@@ -210,7 +210,7 @@ body {
             }
             p {
               font-size: 14px;
-              color: lightgray;
+              color: black;
             }
           }
         }
@@ -225,7 +225,7 @@ body {
           align-items: center;
           justify-content: space-between;
           padding: 10px;
-          color: lightgray;
+          color: #FAFAFA;
         }
   
         .chatIcons {
@@ -239,7 +239,7 @@ body {
         }
   
         .messages {
-          background-color: #ABD6DFFF;
+          background-color: #fbfbfb;
           padding: 10px;
           height: calc(100% - 160px);
           overflow: scroll;
@@ -252,7 +252,7 @@ body {
             .messageInfo {
               display: flex;
               flex-direction: column;
-              color: gray;
+              color: black;
               font-weight: 300;
   
               img {
@@ -269,7 +269,7 @@ body {
               gap: 10px;
   
               p {
-                background-color: white;
+                background-color: black;
                 padding: 10px 20px;
                 border-radius: 0px 10px 10px 10px;
                 max-width: max-content;
@@ -287,7 +287,7 @@ body {
                 align-items: flex-end;
                 p {
                   background-color: #7DB46CFF;
-                  color: white;
+                  color: black;
                   border-radius: 10px 0px 10px 10px;
                 }
               }

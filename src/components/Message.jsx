@@ -4,7 +4,7 @@ const Message = () => {
     return (
         <div className='message owner'>
             <div className='messageInfo'>
-                <img src=""
+                <img src="../images/person5.jpeg"
                 alt=""                   
                 />
             <span>just now</span>
@@ -12,7 +12,7 @@ const Message = () => {
         </div>
         <div className='messageContent'>
             <p>hello</p>
-            <img src=""
+            <img src="../images/person5.jpeg"
             alt=""
             />
         </div>
