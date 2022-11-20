@@ -10,9 +10,9 @@ function App() {
     <div>
     <Home />
     <hr></hr>
-    {/* <Register />
+    <Register />
     <hr></hr>
-    <Signin /> */}
+    <Signin />
     </div>
   );
 }
