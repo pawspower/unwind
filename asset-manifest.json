@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/unwind/static/css/main.e1649070.css",
+    "main.js": "/unwind/static/js/main.7750f2b6.js",
+    "static/js/787.3b397eb2.chunk.js": "/unwind/static/js/787.3b397eb2.chunk.js",
+    "index.html": "/unwind/index.html",
+    "main.e1649070.css.map": "/unwind/static/css/main.e1649070.css.map",
+    "main.7750f2b6.js.map": "/unwind/static/js/main.7750f2b6.js.map",
+    "787.3b397eb2.chunk.js.map": "/unwind/static/js/787.3b397eb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1649070.css",
+    "static/js/main.7750f2b6.js"
+  ]
+}
