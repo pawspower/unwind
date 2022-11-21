@@ -61,11 +61,11 @@ const handleSearch = async ()=>{
                 [combineId+".date"]: serverTimestamp()
             });        
     }
-    } catch (err) {
+    } catch (err) {}
 
-    }
-       
-
+    setUser(null)
+    setUsername("")
+    
         
     };
 
@@ -77,6 +77,7 @@ const handleSearch = async ()=>{
                 placeholder="Find a user"
                 onKeyDown={handleKey}
                 onChange={(e) => setUsername(e.target.value)}
+                value={username}
                 />
             </div>
             {err && <span>User not found!</span>}
