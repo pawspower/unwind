@@ -6,7 +6,7 @@ import "./style.scss";
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Navigate,
 } from "react-router-dom";
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route path="/">
           <Route
             index
@@ -41,7 +41,7 @@ function App() {
           <Route path="Signin" element={<Signin />} />
           <Route path="Register" element={<Register />} />
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   );
 }
