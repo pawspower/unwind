@@ -1,6 +1,4 @@
 
-// import Img from "../img/img.png";
-// import Attach from "../img/attach.png";
 import React, { useContext, useState } from "react";
 import Img from "../img/img.png";
 import Attach from "../img/attach.png";
