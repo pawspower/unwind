@@ -8,7 +8,6 @@ import { ChatContext } from "../context/ChatContext";
 
 const Chat = () => {
   const { data } = useContext(ChatContext);
-  debugger;
   return (
     <div className="chat">
       <div className="chatInfo">
