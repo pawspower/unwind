@@ -23,7 +23,7 @@ const Register = () => {
       navigate("/");
       const storageRef = ref(storage, displayName);
 
-      const uploadTask = uploadBytesResumable(storageRef, file);
+      // const uploadTask = uploadBytesResumable(storageRef, file);
 
       // Register three observers:
       // 1. 'state_changed' observer, called any time the state changes
