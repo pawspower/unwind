@@ -29,14 +29,14 @@ body {
 
 
 .formContainer {
-    background-color: white;
+    background-color: #2E8B57;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
   
     .formWrapper {
-      background-color: #2E8B57;
+      background-color: white;
       padding: 20px 60px;
       border-radius: 10px;
       display: flex;
@@ -45,14 +45,14 @@ body {
       align-items: center;
   
       .logo {
-        color: white;
+        color: #2E8B57;
         font-weight: bold;
         font-size: 24px;
   
       }
   
       .title {
-        color: white;
+        color: #2E8B57;
         font-size: 12px;
       }
   
@@ -84,7 +84,7 @@ body {
           display: flex;
           align-items: center;
           gap: 10px;
-          color: white;
+          color: rgb(175, 175, 175);;
           font-size: 12px;
           cursor: pointer;
   
@@ -102,7 +102,7 @@ body {
   }
   
   .home {
-    background-color: #eeeeee;
+    background-color: #F7F2ED;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ body {
   
       .sidebar {
         flex: 1;
-        background-color:  #fbfbfb;
+        background-color: #fbfbfb;
         position: relative;
   
         .navbar {
@@ -134,7 +134,7 @@ body {
           color: white;
   
           .logo {
-            font-size: 20px;
+            font-size: 25px;
             font-weight: bold;
             @include tablet {
               display: none;
@@ -231,7 +231,7 @@ body {
   
         .chatIcons {
           display: flex;
-          gap: 10px;
+          gap: 20px;
   
           img {
             height: 24px;
