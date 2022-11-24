@@ -29,14 +29,14 @@ body {
 
 
 .formContainer {
-    background-color: white;
+    background-color: #F5F5F5;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
   
     .formWrapper {
-      background-color: #2E8B57;
+      background-color: white;
       padding: 20px 60px;
       border-radius: 10px;
       display: flex;
@@ -45,14 +45,14 @@ body {
       align-items: center;
   
       .logo {
-        color: white;
+        color: #2E8B57;
         font-weight: bold;
         font-size: 24px;
   
       }
   
       .title {
-        color: white;
+        color: #2E8B57;
         font-size: 12px;
       }
   
@@ -72,8 +72,8 @@ body {
         }
   
         button {
-          background-color: #f5ece6;
-          color: black;
+          background-color: #2E8B57;
+          color: white;
           padding: 10px;
           font-weight: bold;
           border: none;
@@ -84,12 +84,13 @@ body {
           display: flex;
           align-items: center;
           gap: 10px;
-          color: white;
+          color: rgb(175, 175, 175);;
           font-size: 12px;
           cursor: pointer;
   
           img {
             width: 32px;
+            padding-left: 15px;
           }
         }
       }
@@ -102,7 +103,7 @@ body {
   }
   
   .home {
-    background-color: #eeeeee;
+    background-color: #F7F2ED;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -121,7 +122,7 @@ body {
   
       .sidebar {
         flex: 1;
-        background-color:  #fbfbfb;
+        background-color: #fbfbfb;
         position: relative;
   
         .navbar {
@@ -134,7 +135,7 @@ body {
           color: white;
   
           .logo {
-            font-size: 20px;
+            font-size: 25px;
             font-weight: bold;
             @include tablet {
               display: none;
@@ -231,7 +232,8 @@ body {
   
         .chatIcons {
           display: flex;
-          gap: 10px;
+          gap: 20px;
+          color: white;
   
           img {
             height: 24px;
@@ -254,7 +256,8 @@ body {
               display: flex;
               flex-direction: column;
               color: black;
-              font-weight: 300;
+              font-weight: 200;
+              font-size: 13px;
   
               img {
                 width: 40px;
@@ -270,7 +273,8 @@ body {
               gap: 10px;
   
               p {
-                background-color: black;
+                background-color: #2a9df4;
+                color: white;
                 padding: 10px 20px;
                 border-radius: 0px 10px 10px 10px;
                 max-width: max-content;
