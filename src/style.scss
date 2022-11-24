@@ -29,7 +29,7 @@ body {
 
 
 .formContainer {
-    background-color: #2E8B57;
+    background-color: #F5F5F5;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -72,8 +72,8 @@ body {
         }
   
         button {
-          background-color: #f5ece6;
-          color: black;
+          background-color: #2E8B57;
+          color: white;
           padding: 10px;
           font-weight: bold;
           border: none;
@@ -90,6 +90,7 @@ body {
   
           img {
             width: 32px;
+            padding-left: 15px;
           }
         }
       }
@@ -232,6 +233,7 @@ body {
         .chatIcons {
           display: flex;
           gap: 20px;
+          color: white;
   
           img {
             height: 24px;
@@ -254,7 +256,8 @@ body {
               display: flex;
               flex-direction: column;
               color: black;
-              font-weight: 300;
+              font-weight: 200;
+              font-size: 13px;
   
               img {
                 width: 40px;
@@ -270,7 +273,8 @@ body {
               gap: 10px;
   
               p {
-                background-color: black;
+                background-color: #2a9df4;
+                color: white;
                 padding: 10px 20px;
                 border-radius: 0px 10px 10px 10px;
                 max-width: max-content;
