@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
 
-const Message = ({ message }) => {
+const Message = ({ message, deleteMessage }) => {
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
 
@@ -43,6 +43,9 @@ const Message = ({ message }) => {
         {gif && <img src={message.text} />}
         {message.img && <img src={message.img} alt="" />}
       </div>
+      <a href="#" onClick={deleteMessage}>
+        Delete
+      </a>
     </div>
   );
 };

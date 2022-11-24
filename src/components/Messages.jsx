@@ -1,4 +1,4 @@
-import { doc, onSnapshot } from "firebase/firestore";
+import { arrayRemove, doc, onSnapshot, updateDoc } from "firebase/firestore";
 import React, { useContext, useEffect, useState } from "react";
 import { ChatContext } from "../context/ChatContext";
 import { db } from "../firebase";
@@ -20,10 +20,20 @@ const Messages = () => {
 
   console.log(messages);
 
+  const deleteMessage = (m) => {
+    updateDoc(doc(db, "chats", data.chatId), {
+      messages: arrayRemove(m),
+    });
+  };
+
   return (
     <div className="messages">
       {messages.map((m) => (
-        <Message message={m} key={m.id} />
+        <Message
+          message={m}
+          key={m.id}
+          deleteMessage={() => deleteMessage(m)}
+        />
       ))}
     </div>
   );
