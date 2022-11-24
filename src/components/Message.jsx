@@ -28,10 +28,18 @@ const Message = ({ message }) => {
           }
           alt=""
         />
-        <span>just now</span>
+        <span>{new Date(message.date.toDate()).toLocaleString()}</span>
       </div>
       <div className="messageContent">
-        <p>{message.text}</p>
+        <p>
+          {gif ? (
+            <a href={message.text} target="_blank">
+              {message.text}
+            </a>
+          ) : (
+            <span>{message.text}</span>
+          )}
+        </p>
         {gif && <img src={message.text} />}
         {message.img && <img src={message.img} alt="" />}
       </div>
