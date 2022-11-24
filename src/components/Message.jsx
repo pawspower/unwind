@@ -12,6 +12,8 @@ const Message = ({ message }) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   }, [message]);
 
+  const gif = message.text.startsWith("http") && message.text.endsWith(".gif");
+
   return (
     <div
       ref={ref}
@@ -30,6 +32,7 @@ const Message = ({ message }) => {
       </div>
       <div className="messageContent">
         <p>{message.text}</p>
+        {gif && <img src={message.text} />}
         {message.img && <img src={message.img} alt="" />}
       </div>
     </div>
