@@ -25,7 +25,7 @@ Some areas that We want to improve are:
 - Thanks to Joel and Loden for the help and support.
 
 ## Contact
-- Created by Keshia Wijaya (@pawspower - kesh.learning@gmail.com) and Jason Luo (@Jason-Luo8 - jasonluo1902@gmail.com) - feel free to contact me!
+- Created by Keshia Wijaya (@pawspower - kesh.learning@gmail.com) and Jason Luo (@Jason-Luo8 - jasonluo1902@gmail.com) - feel free to contact us!
 
 
 
