@@ -7,7 +7,7 @@
 ## Project Description
 - This chat application will enable user to do registration and authentication.
 - On top of that, the user will also be able to do a private messaging, contact searching and image posting.
-- Check the application here: https://pawspower.github.io/unwind/Signin
+- Check the application here: https://pawspower.github.io/unwind/
 
 ## Screenshots
 ![](images/screenshot.png)
