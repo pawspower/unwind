@@ -26,7 +26,7 @@ const Signin = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">U N W I N D</span>
-        <span className="title">Sign in</span>
+        <span className="title">Login</span>
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
