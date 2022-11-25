@@ -43,9 +43,11 @@ const Message = ({ message, deleteMessage }) => {
         {gif && <img src={message.text} />}
         {message.img && <img src={message.img} alt="" />}
       </div>
-      <a href="#" onClick={deleteMessage}>
-        Delete
-      </a>
+      {message.senderId == currentUser.uid && (
+        <a href="#" onClick={deleteMessage}>
+          Delete
+        </a>
+      )}
     </div>
   );
 };
