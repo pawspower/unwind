@@ -5,7 +5,7 @@ import Signin from "./pages/Signin";
 import "./style.scss";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,

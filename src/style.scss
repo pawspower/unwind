@@ -266,6 +266,7 @@ body {
                 object-fit: cover;
               }
             }
+
             .messageContent {
               max-width: 80%;
               display: flex;
@@ -283,6 +284,29 @@ body {
               img {
                 width: 50%;
               }
+            }
+
+            bin {
+              height: 24px;
+              cursor: pointer;
+            }
+
+            .delete {
+              color: gray;
+              text-decoration: none;
+              font-size: 13px;
+            }
+            .delete:link {
+              text-decoration: none;
+            }
+            .delete:active {
+              text-decoration: none;
+            }
+            .delete:hover {
+              text-decoration: none;
+            }
+            .delete:visited {
+              text-decoration: none;
             }
   
             &.owner {

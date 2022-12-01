@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
+import bin from "../img/bin.png";
 
 const Message = ({ message, deleteMessage }) => {
   const { currentUser } = useContext(AuthContext);
@@ -44,7 +45,10 @@ const Message = ({ message, deleteMessage }) => {
         {message.img && <img src={message.img} alt="" />}
       </div>
       {message.senderId == currentUser.uid && (
-        <a href="#" onClick={deleteMessage}>
+        <a className= "delete" href="#" onClick={deleteMessage}>
+        {/* <label>
+          <img src={bin} alt="" />
+        </label> */}
           Delete
         </a>
       )}
