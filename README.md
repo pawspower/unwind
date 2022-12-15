@@ -10,7 +10,7 @@
 - Check the application here: https://pawspower.github.io/unwind/
 
 ## Screenshots
-![](images/screenshot.png)
+![](public/images/ss1.png)
 
 ## Project Status
 - Project is Complete.
